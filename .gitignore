@@ -1,0 +1,6 @@
+
+.env
+venv/
+uploaded_resumes/
+__pycache__/
+*.pyc
