@@ -323,7 +323,8 @@ else:
                             )
 
                     progress_bar.progress((i + 1) / total_files)
-                    time.sleep(4)
+                    # Forces the app to stay under 5 API calls per minute
+                    time.sleep(35)
 
                 st.success(
                     " Batch processing complete! "
