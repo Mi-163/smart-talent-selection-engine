@@ -232,6 +232,11 @@ async def rank_candidate(request: RankRequest, db: Session = Depends(get_db)):
                     elif isinstance(item, str):
                         all_skills.append(item)
 
+            # AI returned a flat string
+            elif isinstance(skills_data, str):
+                all_skills = [skill.strip()
+                              for skill in skills_data.split(',')]
+
             # Format the final text output
             if len(all_skills) > 0:
                 top_skills_str = ", ".join(all_skills[:5])

@@ -132,6 +132,8 @@ else:
                                     f"{int(df['compatibility_score'].mean())}%")
 
                         st.divider()
+                        if st.button("🔄 Refresh Dashboard"):
+                            st.rerun()
 
                         # Leaderboard
                         st.subheader(f"🏆 Leaderboard: {selected_role}")
