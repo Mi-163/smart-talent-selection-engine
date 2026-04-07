@@ -1,5 +1,5 @@
 # Smart Talent Selection Engine
-
+ **[Watch the Demo Video Here](https://drive.google.com/file/d/1taDWogWa23gH29TPGSm-O9EKVWn-fZOn/view?usp=sharing)**
 ## The Problem
 Modern HR teams struggle to evaluate creatively formatted, non-linear resumes using traditional keyword-matching ATS software. This results in highly qualified candidates being automatically rejected due to parsing errors, while recruiters waste hours manually cross-referencing surviving candidate skills against complex job descriptions.
 
